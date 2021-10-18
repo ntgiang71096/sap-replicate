@@ -1,0 +1,709 @@
+,Unnamed: 0,Unnamed: 0.1,Sha,Message,html.url,Author,Date,Url,pred_label
+0,5047,5047,0ab290774f91a23bebe30a358fde4e53ab4876a0,"Ensure validation sticks in banded_triangular_solve_op
+
+PiperOrigin-RevId: 373275480
+Change-Id: Id7717cf275b2d6fdb9441fbbe166d555182d2e79",https://github.com/tensorflow/tensorflow/commit/0ab290774f91a23bebe30a358fde4e53ab4876a0,Mihai Maruseac,5/12/2021 1:36,https://api.github.com/repos/tensorflow/tensorflow/git/commits/0ab290774f91a23bebe30a358fde4e53ab4876a0,0
+1,5050,5050,f6fde895ef9c77d848061c0517f19d0ec2682f3a,"Validate that a and b are proper sparse tensors
+
+PiperOrigin-RevId: 373274848
+Change-Id: I3a665ac3a29dee9fb69bdf408a939330cb93ea75",https://github.com/tensorflow/tensorflow/commit/f6fde895ef9c77d848061c0517f19d0ec2682f3a,Mihai Maruseac,5/12/2021 1:32,https://api.github.com/repos/tensorflow/tensorflow/git/commits/f6fde895ef9c77d848061c0517f19d0ec2682f3a,1
+2,5063,5063,41727ff06111117bdf86b37db198217fd7a143cc,"Validate that a and b are proper sparse tensors
+
+PiperOrigin-RevId: 373248068
+Change-Id: I0a2041a0747901b3f00387a6a3bce9bca6b0b3b1",https://github.com/tensorflow/tensorflow/commit/41727ff06111117bdf86b37db198217fd7a143cc,Mihai Maruseac,5/11/2021 22:41,https://api.github.com/repos/tensorflow/tensorflow/git/commits/41727ff06111117bdf86b37db198217fd7a143cc,1
+3,5069,5069,c4d7afb6a5986b04505aca4466ae1951686c80f6,"Fix heap OOB / undefined behavior in `RaggedTensorToTensor`
+
+PiperOrigin-RevId: 373244623
+Change-Id: I2d6cbbc8c67b238a8815bf58097f7586d87c54f2",https://github.com/tensorflow/tensorflow/commit/c4d7afb6a5986b04505aca4466ae1951686c80f6,Mihai Maruseac,5/11/2021 22:22,https://api.github.com/repos/tensorflow/tensorflow/git/commits/c4d7afb6a5986b04505aca4466ae1951686c80f6,0
+4,5326,5326,6972f9dfe325636b3db4e0bc517ee22a159365c0,"Add missing valuidation to FusedBatchNorm.
+
+PiperOrigin-RevId: 372460336
+Change-Id: Ic8c4e4de67c58a741bd87f2e182bed07247d1126",https://github.com/tensorflow/tensorflow/commit/6972f9dfe325636b3db4e0bc517ee22a159365c0,Mihai Maruseac,5/7/2021 0:45,https://api.github.com/repos/tensorflow/tensorflow/git/commits/6972f9dfe325636b3db4e0bc517ee22a159365c0,0
+5,5337,5337,4c0ee937c0f61c4fc5f5d32d9bb4c67428012a60,"Prevent overflow in sparse op
+
+PiperOrigin-RevId: 372442006
+Change-Id: I60fe31cd7e56fb3501e97c63500caf902ddeee96",https://github.com/tensorflow/tensorflow/commit/4c0ee937c0f61c4fc5f5d32d9bb4c67428012a60,Mihai Maruseac,5/6/2021 22:55,https://api.github.com/repos/tensorflow/tensorflow/git/commits/4c0ee937c0f61c4fc5f5d32d9bb4c67428012a60,1
+6,5340,5340,5899741d0421391ca878da47907b1452f06aaf1b,"Fix heap OOB read in dequantize op.
+
+Also fixes SEGV in same op
+
+PiperOrigin-RevId: 372437896
+Change-Id: I135e94d360c2a1ce374c10f7e0fed1af603dbc02",https://github.com/tensorflow/tensorflow/commit/5899741d0421391ca878da47907b1452f06aaf1b,Mihai Maruseac,5/6/2021 22:31,https://api.github.com/repos/tensorflow/tensorflow/git/commits/5899741d0421391ca878da47907b1452f06aaf1b,0
+7,5344,5344,b1b323042264740c398140da32e93fb9c2c9f33e,"Fix SEGV in CTC ops
+
+PiperOrigin-RevId: 372430279
+Change-Id: I7ec2ad9d6f4d0980c33de45d27c6b17df5c6e26f",https://github.com/tensorflow/tensorflow/commit/b1b323042264740c398140da32e93fb9c2c9f33e,Mihai Maruseac,5/6/2021 21:51,https://api.github.com/repos/tensorflow/tensorflow/git/commits/b1b323042264740c398140da32e93fb9c2c9f33e,0
+8,5345,5345,a74768f8e4efbda4def9f16ee7e13cf3922ac5f7,"Prevent heap OOB error in `MaxPoolGrad`
+
+PiperOrigin-RevId: 372424854
+Change-Id: Idac0f23867ad8b0601cafbaaa52d5e64269e63a7",https://github.com/tensorflow/tensorflow/commit/a74768f8e4efbda4def9f16ee7e13cf3922ac5f7,Mihai Maruseac,5/6/2021 21:24,https://api.github.com/repos/tensorflow/tensorflow/git/commits/a74768f8e4efbda4def9f16ee7e13cf3922ac5f7,0
+9,5349,5349,12c727cee857fa19be717f336943d95fca4ffe4f,"Validate inputs of `FractionalAvgPoolGrad`.
+
+PiperOrigin-RevId: 372420640
+Change-Id: Icc583928e6cdc3062e12498e4d2337a8fe3da016",https://github.com/tensorflow/tensorflow/commit/12c727cee857fa19be717f336943d95fca4ffe4f,Mihai Maruseac,5/6/2021 21:02,https://api.github.com/repos/tensorflow/tensorflow/git/commits/12c727cee857fa19be717f336943d95fca4ffe4f,0
+10,5370,5370,6fc9141f42f6a72180ecd24021c3e6b36165fe0d,"Fix assertion failure in pooling_ops_3d
+
+PiperOrigin-RevId: 372364504
+Change-Id: Iecde4fe26b47a8fa935d6e2611b5585ed5777781",https://github.com/tensorflow/tensorflow/commit/6fc9141f42f6a72180ecd24021c3e6b36165fe0d,Mihai Maruseac,5/6/2021 16:51,https://api.github.com/repos/tensorflow/tensorflow/git/commits/6fc9141f42f6a72180ecd24021c3e6b36165fe0d,0
+11,5386,5386,32fdcbff9d06d010d908fcc4bd4b36eb3ce15925,"Validate arguments of `FractionalMaxPoolGrad`
+
+PiperOrigin-RevId: 372274982
+Change-Id: If46b0c442efa4eaef635ce6a476717060420122c",https://github.com/tensorflow/tensorflow/commit/32fdcbff9d06d010d908fcc4bd4b36eb3ce15925,Mihai Maruseac,5/6/2021 5:39,https://api.github.com/repos/tensorflow/tensorflow/git/commits/32fdcbff9d06d010d908fcc4bd4b36eb3ce15925,0
+12,5389,5389,14607c0707040d775e06b6817325640cb4b5864c,"Fix nullptr deref in `tf.raw_ops.CTCLoss`.
+
+PiperOrigin-RevId: 372266334
+Change-Id: Ic52c3e9f13a38f54482d670907eda1688450862b",https://github.com/tensorflow/tensorflow/commit/14607c0707040d775e06b6817325640cb4b5864c,Amit Patankar,5/6/2021 4:09,https://api.github.com/repos/tensorflow/tensorflow/git/commits/14607c0707040d775e06b6817325640cb4b5864c,0
+13,5399,5399,63c6a29d0f2d692b247f7bf81f8732d6442fad09,"Add missing validation, prevent heap OOB
+
+PiperOrigin-RevId: 372246723
+Change-Id: I1a454a643810e77d7d14821b342098c56a09fbbf",https://github.com/tensorflow/tensorflow/commit/63c6a29d0f2d692b247f7bf81f8732d6442fad09,Mihai Maruseac,5/6/2021 1:07,https://api.github.com/repos/tensorflow/tensorflow/git/commits/63c6a29d0f2d692b247f7bf81f8732d6442fad09,1
+14,5408,5408,4504a081af71514bb1828048363e6540f797005b,"Fix OOB read issue with `tf.raw_ops.CTCLoss`.
+
+PiperOrigin-RevId: 372242187
+Change-Id: I347228ed8c04e1d2eb9d2479ae52f51d1b512c6e",https://github.com/tensorflow/tensorflow/commit/4504a081af71514bb1828048363e6540f797005b,Amit Patankar,5/6/2021 0:33,https://api.github.com/repos/tensorflow/tensorflow/git/commits/4504a081af71514bb1828048363e6540f797005b,0
+15,5421,5421,a3d9f9be9ac2296615644061b40cefcee341dcc4,"Add missing validation to pooling_ops_3d
+
+PiperOrigin-RevId: 372218727
+Change-Id: I6b9ed4266aa7286c02f1f230d7bea922c1be547e",https://github.com/tensorflow/tensorflow/commit/a3d9f9be9ac2296615644061b40cefcee341dcc4,Mihai Maruseac,5/5/2021 22:20,https://api.github.com/repos/tensorflow/tensorflow/git/commits/a3d9f9be9ac2296615644061b40cefcee341dcc4,0
+16,5425,5425,376c352a37ce5a68b721406dc7e77ac4b6cf483d,"Don't do any work if output tensor is null (prevent div by 0)
+
+PiperOrigin-RevId: 372208700
+Change-Id: Iea6b6293e887ade8538facfdb50fb931e17f511e",https://github.com/tensorflow/tensorflow/commit/376c352a37ce5a68b721406dc7e77ac4b6cf483d,Mihai Maruseac,5/5/2021 21:34,https://api.github.com/repos/tensorflow/tensorflow/git/commits/376c352a37ce5a68b721406dc7e77ac4b6cf483d,0
+17,5439,5439,ecf768cbe50cedc0a45ce1ee223146a3d3d26d23,"Add missing validations to reverse_sequence_op
+
+PiperOrigin-RevId: 372178683
+Change-Id: Iac97ebab5b342f1262c77a7d9bcb4267b305ce5b",https://github.com/tensorflow/tensorflow/commit/ecf768cbe50cedc0a45ce1ee223146a3d3d26d23,Mihai Maruseac,5/5/2021 19:07,https://api.github.com/repos/tensorflow/tensorflow/git/commits/ecf768cbe50cedc0a45ce1ee223146a3d3d26d23,1
+18,5442,5442,f7cc8755ac6683131fdfa7a8a121f9d7a9dec6fb,"Add several missing validations in SDCA
+
+PiperOrigin-RevId: 372172877
+Change-Id: Id366da962432e18dcbfac847d11e98488bebb70a",https://github.com/tensorflow/tensorflow/commit/f7cc8755ac6683131fdfa7a8a121f9d7a9dec6fb,Mihai Maruseac,5/5/2021 18:40,https://api.github.com/repos/tensorflow/tensorflow/git/commits/f7cc8755ac6683131fdfa7a8a121f9d7a9dec6fb,0
+19,5454,5454,dcd7867de0fea4b72a2b34bd41eb74548dc23886,"Fix heap buffer overflow
+
+PiperOrigin-RevId: 372132844
+Change-Id: Idef9895efaf145f2b1c23d31983601ec980cd5e4",https://github.com/tensorflow/tensorflow/commit/dcd7867de0fea4b72a2b34bd41eb74548dc23886,Mihai Maruseac,5/5/2021 15:38,https://api.github.com/repos/tensorflow/tensorflow/git/commits/dcd7867de0fea4b72a2b34bd41eb74548dc23886,1
+20,5455,5455,ef0c008ee84bad91ec6725ddc42091e19a30cf0e,"Fix out of bound read in requantization_range_op.cc
+
+PiperOrigin-RevId: 372129031
+Change-Id: Ie684ab98a3840c5186ead3eafffc0e0ed0e8030d",https://github.com/tensorflow/tensorflow/commit/ef0c008ee84bad91ec6725ddc42091e19a30cf0e,Laura Pak,5/5/2021 15:16,https://api.github.com/repos/tensorflow/tensorflow/git/commits/ef0c008ee84bad91ec6725ddc42091e19a30cf0e,0
+21,5467,5467,7ae2af34087fb4b5c8915279efd03da3b81028bc,"Fix heap-buffer-overflow issue with `tf.raw_ops.SparseDenseCwiseMul`.
+
+PiperOrigin-RevId: 372054410
+Change-Id: Ifcce0491e2e3816838c87e73be30a1e61b65174d",https://github.com/tensorflow/tensorflow/commit/7ae2af34087fb4b5c8915279efd03da3b81028bc,Amit Patankar,5/5/2021 4:30,https://api.github.com/repos/tensorflow/tensorflow/git/commits/7ae2af34087fb4b5c8915279efd03da3b81028bc,0
+22,5474,5474,5e52ef5a461570cfb68f3bdbbebfe972cb4e0fd8,"Fix breakage in parameterized_truncated_normal_op.cc
+
+PiperOrigin-RevId: 372041718
+Change-Id: Iff79e77a2bb27032423eefcb84211627b27dfe81",https://github.com/tensorflow/tensorflow/commit/5e52ef5a461570cfb68f3bdbbebfe972cb4e0fd8,Mihai Maruseac,5/5/2021 2:14,https://api.github.com/repos/tensorflow/tensorflow/git/commits/5e52ef5a461570cfb68f3bdbbebfe972cb4e0fd8,1
+23,5475,5475,3f6fe4dfef6f57e768260b48166c27d148f3015f,"Add missing validations in dillation ops.
+
+PiperOrigin-RevId: 372037158
+Change-Id: I4ee304c84a02550c030288a6534000b934fc1599",https://github.com/tensorflow/tensorflow/commit/3f6fe4dfef6f57e768260b48166c27d148f3015f,Mihai Maruseac,5/5/2021 1:33,https://api.github.com/repos/tensorflow/tensorflow/git/commits/3f6fe4dfef6f57e768260b48166c27d148f3015f,0
+24,5478,5478,f4c364a5d6880557f6f5b6eb5cee2c407f0186b3,"Fix multiple issues in EditDistance
+
+PiperOrigin-RevId: 372033948
+Change-Id: Ieb957c29894af05bdfeb1a0402fced808dfcfd7b",https://github.com/tensorflow/tensorflow/commit/f4c364a5d6880557f6f5b6eb5cee2c407f0186b3,Mihai Maruseac,5/5/2021 1:06,https://api.github.com/repos/tensorflow/tensorflow/git/commits/f4c364a5d6880557f6f5b6eb5cee2c407f0186b3,0
+25,5479,5479,79865b542f9ffdc9caeb255631f7c56f1d4b6517,"Fix memory corruption issue with `tf.raw_ops.DrawBoundingBoxesV2`.
+
+PiperOrigin-RevId: 372033910
+Change-Id: I8a9f4efc1c8ddaacbc26ec1fbe4bfdd6791c226d",https://github.com/tensorflow/tensorflow/commit/79865b542f9ffdc9caeb255631f7c56f1d4b6517,Amit Patankar,5/5/2021 1:05,https://api.github.com/repos/tensorflow/tensorflow/git/commits/79865b542f9ffdc9caeb255631f7c56f1d4b6517,0
+26,5480,5480,31bd5026304677faa8a0b77602c6154171b9aec1,"Prevent check fail in FFT
+
+PiperOrigin-RevId: 372031044
+Change-Id: I50994e3e8a5d1342d01bde80256f6bf2730ca299",https://github.com/tensorflow/tensorflow/commit/31bd5026304677faa8a0b77602c6154171b9aec1,Mihai Maruseac,5/5/2021 0:42,https://api.github.com/repos/tensorflow/tensorflow/git/commits/31bd5026304677faa8a0b77602c6154171b9aec1,0
+27,5482,5482,1c56f53be0b722ca657cbc7df461ed676c8642a2,"Fix a check fail in Fast Fourier implementation
+
+PiperOrigin-RevId: 372026629
+Change-Id: Id05c3362aa575271bc3e06b16316c9037085fc11",https://github.com/tensorflow/tensorflow/commit/1c56f53be0b722ca657cbc7df461ed676c8642a2,Mihai Maruseac,5/5/2021 0:11,https://api.github.com/repos/tensorflow/tensorflow/git/commits/1c56f53be0b722ca657cbc7df461ed676c8642a2,1
+28,5493,5493,77dd114513d7796e1e2b8aece214a380af26fbf4,"Fix a check fail
+
+PiperOrigin-RevId: 372011072
+Change-Id: I1062cfaed0aa16884e9a16312483794d188db76f",https://github.com/tensorflow/tensorflow/commit/77dd114513d7796e1e2b8aece214a380af26fbf4,Mihai Maruseac,5/4/2021 22:46,https://api.github.com/repos/tensorflow/tensorflow/git/commits/77dd114513d7796e1e2b8aece214a380af26fbf4,0
+29,5494,5494,faa76f39014ed3b5e2c158593b1335522e573c7f,"Fix heap-buffer-overflow issue with `tf.raw_ops.SparseFillEmptyRows`.
+
+PiperOrigin-RevId: 372009178
+Change-Id: Ia1a9e9691ecaa072f32fb39a0887b2aabd399210",https://github.com/tensorflow/tensorflow/commit/faa76f39014ed3b5e2c158593b1335522e573c7f,Amit Patankar,5/4/2021 22:35,https://api.github.com/repos/tensorflow/tensorflow/git/commits/faa76f39014ed3b5e2c158593b1335522e573c7f,0
+30,5501,5501,a84358aa12f0b1518e606095ab9cfddbf597c121,"Fix heap-buffer-overflow issue with `tf.raw_ops.RaggedTensorToTensor`.
+
+PiperOrigin-RevId: 371986929
+Change-Id: I79ab962a22c5867f36f7f45b780a1ac881b1dbdd",https://github.com/tensorflow/tensorflow/commit/a84358aa12f0b1518e606095ab9cfddbf597c121,Amit Patankar,5/4/2021 20:45,https://api.github.com/repos/tensorflow/tensorflow/git/commits/a84358aa12f0b1518e606095ab9cfddbf597c121,0
+31,5592,5592,51300ba1cc2f487aefec6e6631fef03b0e08b298,"Fix heap buffer overflow in tf.raw_ops.UnicodeEncode.
+
+PiperOrigin-RevId: 371717714
+Change-Id: If33443b28f158e58078f1268f6b92f2728d219e0",https://github.com/tensorflow/tensorflow/commit/51300ba1cc2f487aefec6e6631fef03b0e08b298,Laura Pak,5/3/2021 16:53,https://api.github.com/repos/tensorflow/tensorflow/git/commits/51300ba1cc2f487aefec6e6631fef03b0e08b298,0
+32,5598,5598,c6173f5fe66cdbab74f4f869311fe6aae2ba35f4,"TFLite: Error out when the graph has a recurion.
+
+Recursion is currently unsupported.
+
+PiperOrigin-RevId: 371708957
+Change-Id: I8dfad0d85cbfe08e39ae8ea7bad21254ddee5003",https://github.com/tensorflow/tensorflow/commit/c6173f5fe66cdbab74f4f869311fe6aae2ba35f4,Yu-Cheng Ling,5/3/2021 16:07,https://api.github.com/repos/tensorflow/tensorflow/git/commits/c6173f5fe66cdbab74f4f869311fe6aae2ba35f4,0
+33,5660,5660,c5b0d5f8ac19888e46ca14b0e27562e7fbbee9a9,"Fix the CHECK failure in tf.raw_ops.QuantizeAndDequantizeV2.
+
+PiperOrigin-RevId: 371361603
+Change-Id: Ia70e34d41adaadddf928e95e5e5c5c97d5bc60d0",https://github.com/tensorflow/tensorflow/commit/c5b0d5f8ac19888e46ca14b0e27562e7fbbee9a9,Amit Patankar,4/30/2021 17:39,https://api.github.com/repos/tensorflow/tensorflow/git/commits/c5b0d5f8ac19888e46ca14b0e27562e7fbbee9a9,0
+34,5675,5675,698e01511f62a3c185754db78ebce0eee1f0184d,"Fix `tf.io.decode_raw` bugs and update documentation.
+
+Fixes cases where specifying `fixed_length` resulted in data loss and even segfault and corruption of the Python interpreter. The fix is subtle but needed due to pointer arithmetic rules.
+
+Makes sure that `fixed_length` does not change the output when present but not needed.
+
+Eliminates needless copy and cast in the main codepath.
+
+PiperOrigin-RevId: 371322725
+Change-Id: I514ef67a2961c86422f69d05122d31615e87896c",https://github.com/tensorflow/tensorflow/commit/698e01511f62a3c185754db78ebce0eee1f0184d,Mihai Maruseac,4/30/2021 13:36,https://api.github.com/repos/tensorflow/tensorflow/git/commits/698e01511f62a3c185754db78ebce0eee1f0184d,0
+35,5698,5698,7c8cc4ec69cd348e44ad6a2699057ca88faad3e5,"Fix a dangerous integer overflow and a malloc of negative size.
+
+PiperOrigin-RevId: 371254154
+Change-Id: I250a98a3df26328770167025670235a963a72da0",https://github.com/tensorflow/tensorflow/commit/7c8cc4ec69cd348e44ad6a2699057ca88faad3e5,Mihai Maruseac,4/30/2021 2:43,https://api.github.com/repos/tensorflow/tensorflow/git/commits/7c8cc4ec69cd348e44ad6a2699057ca88faad3e5,1
+36,5705,5705,8ba6fa29cd8bf9cef9b718dc31c78c73081f5b31,"Fix heap-buffer-overflow issue with `tf.raw_ops.SparseSplit`.
+
+PiperOrigin-RevId: 371242872
+Change-Id: I482bb3d12602c7c3cc9446f97fb9f584bb98e9a4",https://github.com/tensorflow/tensorflow/commit/8ba6fa29cd8bf9cef9b718dc31c78c73081f5b31,Amit Patankar,4/30/2021 0:58,https://api.github.com/repos/tensorflow/tensorflow/git/commits/8ba6fa29cd8bf9cef9b718dc31c78c73081f5b31,1
+37,5710,5710,1d04d7d93f4ed3854abf75d6b712d72c3f70d6b6,"Fix heap-buffer-overflow issue with `tf.raw_ops.SparseReshape`.
+
+PiperOrigin-RevId: 371218558
+Change-Id: I6a6dc5bf15b50a1d05bdd95e9ba347cb39f40f45",https://github.com/tensorflow/tensorflow/commit/1d04d7d93f4ed3854abf75d6b712d72c3f70d6b6,Amit Patankar,4/29/2021 22:30,https://api.github.com/repos/tensorflow/tensorflow/git/commits/1d04d7d93f4ed3854abf75d6b712d72c3f70d6b6,0
+38,5725,5725,4071d8e2f6c45c1955a811fee757ca2adbe462c1,"Fix FPE issue with `tf.raw_ops.Reverse`.
+
+PiperOrigin-RevId: 371176973
+Change-Id: Ic6d483bfc95313ec2299c2d1c956cfe96c96626c",https://github.com/tensorflow/tensorflow/commit/4071d8e2f6c45c1955a811fee757ca2adbe462c1,Amit Patankar,4/29/2021 19:24,https://api.github.com/repos/tensorflow/tensorflow/git/commits/4071d8e2f6c45c1955a811fee757ca2adbe462c1,0
+39,5741,5741,548b5eaf23685d86f722233d8fbc21d0a4aecb96,"Fix divide by zero error in `fractional_pool_common.cc`.
+
+PiperOrigin-RevId: 371126221
+Change-Id: Iea4b2f363aaeb116ab460e3bc592c687484af344",https://github.com/tensorflow/tensorflow/commit/548b5eaf23685d86f722233d8fbc21d0a4aecb96,Laura Pak,4/29/2021 15:38,https://api.github.com/repos/tensorflow/tensorflow/git/commits/548b5eaf23685d86f722233d8fbc21d0a4aecb96,0
+40,5757,5757,ae2daeb45abfe2c6dda539cf8d0d6f653d3ef412,"Prevent array OOB read/write
+
+PiperOrigin-RevId: 371026165
+Change-Id: I26ac6372c87246e03c7eb8c94e84c84d86054b36",https://github.com/tensorflow/tensorflow/commit/ae2daeb45abfe2c6dda539cf8d0d6f653d3ef412,Mihai Maruseac,4/29/2021 1:12,https://api.github.com/repos/tensorflow/tensorflow/git/commits/ae2daeb45abfe2c6dda539cf8d0d6f653d3ef412,0
+41,5758,5758,c59c37e7b2d563967da813fa50fe20b21f4da683,"Prevent array write out-of-bounds.
+
+If user passes an invalid axis, then we copy one too many dimensions to the output in the loop below these checks. Even if we didn't do that, there will be further issues with an invalid axis, so we check for that right now.
+
+PiperOrigin-RevId: 371023299
+Change-Id: I9eca37ffc2b29e8e48710f500701270ef0790224",https://github.com/tensorflow/tensorflow/commit/c59c37e7b2d563967da813fa50fe20b21f4da683,Mihai Maruseac,4/29/2021 0:50,https://api.github.com/repos/tensorflow/tensorflow/git/commits/c59c37e7b2d563967da813fa50fe20b21f4da683,0
+42,5760,5760,4253f96a58486ffe84b61c0415bb234a4632ee73,"Fix integer overflow in TFLite concat
+
+PiperOrigin-RevId: 371013841
+Change-Id: I6a4782ce7ca753e23ff31e7fb6aeb7f9d412cd29",https://github.com/tensorflow/tensorflow/commit/4253f96a58486ffe84b61c0415bb234a4632ee73,Mihai Maruseac,4/28/2021 23:50,https://api.github.com/repos/tensorflow/tensorflow/git/commits/4253f96a58486ffe84b61c0415bb234a4632ee73,0
+43,5763,5763,5117e0851348065ed59c991562c0ec80d9193db2,"Prevent a division by 0
+
+PiperOrigin-RevId: 371007407
+Change-Id: Iecf2718de48d6bf5a69b02a9df9deda8ec1b19d3",https://github.com/tensorflow/tensorflow/commit/5117e0851348065ed59c991562c0ec80d9193db2,Mihai Maruseac,4/28/2021 23:16,https://api.github.com/repos/tensorflow/tensorflow/git/commits/5117e0851348065ed59c991562c0ec80d9193db2,0
+44,5765,5765,ba6822bd7b7324ba201a28b2f278c29a98edbef2,"Fix OOB issue with `tf.raw_ops.SparseSparseMinimum`.
+
+PiperOrigin-RevId: 371005787
+Change-Id: Ib686ccc077836e8b980b8b5a03936d36a8ecaf71",https://github.com/tensorflow/tensorflow/commit/ba6822bd7b7324ba201a28b2f278c29a98edbef2,Amit Patankar,4/28/2021 23:06,https://api.github.com/repos/tensorflow/tensorflow/git/commits/ba6822bd7b7324ba201a28b2f278c29a98edbef2,0
+45,5768,5768,cbda3c6b2dbbd3fbdc482ff8c0170a78ec2e97d0,"Prevent divisions by 0
+
+PiperOrigin-RevId: 371003153
+Change-Id: Idef56c95b9fcaeb97f87e18c7a674dbeb5173204",https://github.com/tensorflow/tensorflow/commit/cbda3c6b2dbbd3fbdc482ff8c0170a78ec2e97d0,Mihai Maruseac,4/28/2021 22:53,https://api.github.com/repos/tensorflow/tensorflow/git/commits/cbda3c6b2dbbd3fbdc482ff8c0170a78ec2e97d0,0
+46,5771,5771,b22786e7e9b7bdb6a56936ff29cc7e9968d7bc1d,"Prevent division by 0
+
+PiperOrigin-RevId: 370998952
+Change-Id: I6b1d49079624ee1447d2d9b53a8976fb356cc8f5",https://github.com/tensorflow/tensorflow/commit/b22786e7e9b7bdb6a56936ff29cc7e9968d7bc1d,Mihai Maruseac,4/28/2021 22:31,https://api.github.com/repos/tensorflow/tensorflow/git/commits/b22786e7e9b7bdb6a56936ff29cc7e9968d7bc1d,0
+47,5773,5773,6841e522a3e7d48706a02e8819836e809f738682,"Prevent division by 0
+
+PiperOrigin-RevId: 370995582
+Change-Id: I670ffaf52d1ff8823ec31ea5f438f9125b402223",https://github.com/tensorflow/tensorflow/commit/6841e522a3e7d48706a02e8819836e809f738682,Mihai Maruseac,4/28/2021 22:13,https://api.github.com/repos/tensorflow/tensorflow/git/commits/6841e522a3e7d48706a02e8819836e809f738682,0
+48,5774,5774,7f283ff806b2031f407db64c4d3edcda8fb9f9f5,"Fix FPE issue in external Eigen source code issue with `tf.raw_ops.SparseMatMul`.
+
+PiperOrigin-RevId: 370992919
+Change-Id: Icfb276fef5fb40928b27c3e44608d2aca72c9fd7",https://github.com/tensorflow/tensorflow/commit/7f283ff806b2031f407db64c4d3edcda8fb9f9f5,Amit Patankar,4/28/2021 22:00,https://api.github.com/repos/tensorflow/tensorflow/git/commits/7f283ff806b2031f407db64c4d3edcda8fb9f9f5,1
+49,5778,5778,6d36ba65577006affb272335b7c1abd829010708,"Prevent division by 0
+
+PiperOrigin-RevId: 370984990
+Change-Id: Ib324955bbeb1cbd97c82fd5d61a00a2697c9a2de",https://github.com/tensorflow/tensorflow/commit/6d36ba65577006affb272335b7c1abd829010708,Mihai Maruseac,4/28/2021 21:22,https://api.github.com/repos/tensorflow/tensorflow/git/commits/6d36ba65577006affb272335b7c1abd829010708,0
+50,5784,5784,2c74674348a4708ced58ad6eb1b23354df8ee044,"Prevent division by 0
+
+PiperOrigin-RevId: 370979352
+Change-Id: Ic79191c316d986fc6072ecaebfec9d5f2b924d00",https://github.com/tensorflow/tensorflow/commit/2c74674348a4708ced58ad6eb1b23354df8ee044,Mihai Maruseac,4/28/2021 20:57,https://api.github.com/repos/tensorflow/tensorflow/git/commits/2c74674348a4708ced58ad6eb1b23354df8ee044,0
+51,5790,5790,3ebedd7e345453d68e279cfc3e4072648e5e12e5,"Prevent division by 0 in OneHot implementation
+
+If input indices is degenerate, the implementation would do a divide by zero. See https://github.com/tensorflow/tensorflow/blob/745d57df6d5e9bc568666a2a48ed8dd629c27241/tensorflow/lite/kernels/one_hot.cc#L68-L72
+
+PiperOrigin-RevId: 370966870
+Change-Id: Ie018337811c8016b5a1d3a277d00d5f2e19a2058",https://github.com/tensorflow/tensorflow/commit/3ebedd7e345453d68e279cfc3e4072648e5e12e5,Mihai Maruseac,4/28/2021 19:58,https://api.github.com/repos/tensorflow/tensorflow/git/commits/3ebedd7e345453d68e279cfc3e4072648e5e12e5,0
+52,5791,5791,f61c57bd425878be108ec787f4d96390579fb83e,"Prevent division by 0
+
+PiperOrigin-RevId: 370966645
+Change-Id: I831bfd96c7eb77b02d7ebb744335f59f6e5728cb",https://github.com/tensorflow/tensorflow/commit/f61c57bd425878be108ec787f4d96390579fb83e,Mihai Maruseac,4/28/2021 19:57,https://api.github.com/repos/tensorflow/tensorflow/git/commits/f61c57bd425878be108ec787f4d96390579fb83e,0
+53,5793,5793,ff489d95a9006be080ad14feb378f2b4dac35552,"Prevent division by 0.
+
+PiperOrigin-RevId: 370962554
+Change-Id: I0b9b62f4d8e1046dd88f9433f8dfeaf61a901680",https://github.com/tensorflow/tensorflow/commit/ff489d95a9006be080ad14feb378f2b4dac35552,Mihai Maruseac,4/28/2021 19:37,https://api.github.com/repos/tensorflow/tensorflow/git/commits/ff489d95a9006be080ad14feb378f2b4dac35552,0
+54,5802,5802,1a2a87229d1d61e23a39373777c056161eb4084d,"Fix FPE issue with `tf.raw_ops.FusedBatchNorm`.
+
+PiperOrigin-RevId: 370948185
+Change-Id: If0c8e0320062ed6363e94ff5fe38e6a301f69ac2",https://github.com/tensorflow/tensorflow/commit/1a2a87229d1d61e23a39373777c056161eb4084d,Amit Patankar,4/28/2021 18:30,https://api.github.com/repos/tensorflow/tensorflow/git/commits/1a2a87229d1d61e23a39373777c056161eb4084d,0
+55,5804,5804,da5ff2daf618591f64b2b62d9d9803951b945e9f,"Fix FPE issue with `tf.raw_ops.DenseCountSparseOutput`.
+
+PiperOrigin-RevId: 370946862
+Change-Id: I3752584ad04aaecb327ff6793a9640ac56acfe7a",https://github.com/tensorflow/tensorflow/commit/da5ff2daf618591f64b2b62d9d9803951b945e9f,Amit Patankar,4/28/2021 18:24,https://api.github.com/repos/tensorflow/tensorflow/git/commits/da5ff2daf618591f64b2b62d9d9803951b945e9f,0
+56,5838,5838,f8378920345f4f4604202d4ab15ef64b2aceaa16,"Prevent a null pointer dereference in TFLite.
+
+PiperOrigin-RevId: 370800353
+Change-Id: Ic9c9712ce5c6e384c954dcd640a5bd9ff05c9a05",https://github.com/tensorflow/tensorflow/commit/f8378920345f4f4604202d4ab15ef64b2aceaa16,Mihai Maruseac,4/28/2021 0:47,https://api.github.com/repos/tensorflow/tensorflow/git/commits/f8378920345f4f4604202d4ab15ef64b2aceaa16,0
+57,5839,5839,9c1dc920d8ffb4893d6c9d27d1f039607b326743,"Prevent infinite loop/stack overflow in TFLite `while` op.
+
+PiperOrigin-RevId: 370800333
+Change-Id: I6a2e4ff849da339545c449db2af7e11ce6ff02c3",https://github.com/tensorflow/tensorflow/commit/9c1dc920d8ffb4893d6c9d27d1f039607b326743,Mihai Maruseac,4/28/2021 0:47,https://api.github.com/repos/tensorflow/tensorflow/git/commits/9c1dc920d8ffb4893d6c9d27d1f039607b326743,1
+58,5840,5840,106d8f4fb89335a2c52d7c895b7a7485465ca8d9,"Prevent division by 0 in TFLite
+
+PiperOrigin-RevId: 370800311
+Change-Id: I21ccdbd31c30118acc67df8751807ee2e0b12f91",https://github.com/tensorflow/tensorflow/commit/106d8f4fb89335a2c52d7c895b7a7485465ca8d9,Mihai Maruseac,4/28/2021 0:47,https://api.github.com/repos/tensorflow/tensorflow/git/commits/106d8f4fb89335a2c52d7c895b7a7485465ca8d9,0
+59,5841,5841,953f28dca13c92839ba389c055587cfe6c723578,"Prevent a null pointer exception in TFLite
+
+PiperOrigin-RevId: 370800206
+Change-Id: Idd437ebce4ff224120d8eefc1c14c062173b71d6",https://github.com/tensorflow/tensorflow/commit/953f28dca13c92839ba389c055587cfe6c723578,Mihai Maruseac,4/28/2021 0:46,https://api.github.com/repos/tensorflow/tensorflow/git/commits/953f28dca13c92839ba389c055587cfe6c723578,0
+60,5842,5842,801c1c6be5324219689c98e1bd3e0ca365ee834d,"Fix another division by 0 in TFLite
+
+PiperOrigin-RevId: 370800181
+Change-Id: I924809166a6131f5075e6d45c455106538d755f9",https://github.com/tensorflow/tensorflow/commit/801c1c6be5324219689c98e1bd3e0ca365ee834d,Mihai Maruseac,4/28/2021 0:46,https://api.github.com/repos/tensorflow/tensorflow/git/commits/801c1c6be5324219689c98e1bd3e0ca365ee834d,1
+61,5843,5843,8e45822aa0b9f5df4b4c64f221e64dc930a70a9d,"Handle one more division by 0 in TFLite.
+
+PiperOrigin-RevId: 370800140
+Change-Id: I9ab42e5aaccf02f226d1282611490a54cf7d273e",https://github.com/tensorflow/tensorflow/commit/8e45822aa0b9f5df4b4c64f221e64dc930a70a9d,Mihai Maruseac,4/28/2021 0:46,https://api.github.com/repos/tensorflow/tensorflow/git/commits/8e45822aa0b9f5df4b4c64f221e64dc930a70a9d,0
+62,5844,5844,0d45ea1ca641b21b73bcf9c00e0179cda284e7e7,"Prevent one more div by 0 in TFLite
+
+PiperOrigin-RevId: 370800114
+Change-Id: I6b956aeb8c458cc6f514408d2e89ffacfe249e57",https://github.com/tensorflow/tensorflow/commit/0d45ea1ca641b21b73bcf9c00e0179cda284e7e7,Mihai Maruseac,4/28/2021 0:45,https://api.github.com/repos/tensorflow/tensorflow/git/commits/0d45ea1ca641b21b73bcf9c00e0179cda284e7e7,0
+63,5845,5845,5f7975d09eac0f10ed8a17dbb6f5964977725adc,"Prevent another div by 0 in optimized pooling implementations TFLite
+
+PiperOrigin-RevId: 370800091
+Change-Id: I2119352f57fb5ca4f2051e0e2d749403304a979b",https://github.com/tensorflow/tensorflow/commit/5f7975d09eac0f10ed8a17dbb6f5964977725adc,Mihai Maruseac,4/28/2021 0:45,https://api.github.com/repos/tensorflow/tensorflow/git/commits/5f7975d09eac0f10ed8a17dbb6f5964977725adc,0
+64,5851,5851,49847ae69a4e1a97ae7f2db5e217c77721e37948,"Fix division by zero in TFLite padding.
+
+PiperOrigin-RevId: 370777494
+Change-Id: Ic1331e4a1603b9e4c8aa183012a6c8237410aa0f",https://github.com/tensorflow/tensorflow/commit/49847ae69a4e1a97ae7f2db5e217c77721e37948,Mihai Maruseac,4/27/2021 22:37,https://api.github.com/repos/tensorflow/tensorflow/git/commits/49847ae69a4e1a97ae7f2db5e217c77721e37948,0
+65,5855,5855,704866eabe03a9aeda044ec91a8d0c83fc1ebdbe,"Fix overflow CHECK issue with `tf.raw_ops.UnsortedSegmentJoin`.
+
+PiperOrigin-RevId: 370766155
+Change-Id: I33e7c6626224e1060a8a4ab51ad5d861c6d4c63e",https://github.com/tensorflow/tensorflow/commit/704866eabe03a9aeda044ec91a8d0c83fc1ebdbe,Amit Patankar,4/27/2021 21:41,https://api.github.com/repos/tensorflow/tensorflow/git/commits/704866eabe03a9aeda044ec91a8d0c83fc1ebdbe,1
+66,5906,5906,99085e8ff02c3763a0ec2263e44daec416f6a387,"Fix `tf.raw_ops.QuantizeAndDequantizeV3` array index failure.
+
+PiperOrigin-RevId: 370577691
+Change-Id: Ifeae64212f6bcd139435824fa2748d1329213c4c",https://github.com/tensorflow/tensorflow/commit/99085e8ff02c3763a0ec2263e44daec416f6a387,Amit Patankar,4/27/2021 0:32,https://api.github.com/repos/tensorflow/tensorflow/git/commits/99085e8ff02c3763a0ec2263e44daec416f6a387,0
+67,5912,5912,6fd02f44810754ae7481838b6a67c5df7f909ca3,"Fix `tf.raw_ops.SparseAdd ` invalid memory access failure.
+
+PiperOrigin-RevId: 370568774
+Change-Id: I5f73b31c865f2948a1c8dfb7ebd22b3cfb6405bf",https://github.com/tensorflow/tensorflow/commit/6fd02f44810754ae7481838b6a67c5df7f909ca3,Amit Patankar,4/26/2021 23:40,https://api.github.com/repos/tensorflow/tensorflow/git/commits/6fd02f44810754ae7481838b6a67c5df7f909ca3,0
+68,5924,5924,20431e9044cf2ad3c0323c34888b192f3289af6b,"Fix `tf.raw_ops.QuantizeAndDequantizeV4Grad` CHECK failure.
+
+PiperOrigin-RevId: 370532425
+Change-Id: I767721be266851b63d8fe55e7ac6be0af6017f6c",https://github.com/tensorflow/tensorflow/commit/20431e9044cf2ad3c0323c34888b192f3289af6b,Amit Patankar,4/26/2021 20:43,https://api.github.com/repos/tensorflow/tensorflow/git/commits/20431e9044cf2ad3c0323c34888b192f3289af6b,0
+69,5979,5979,480641e3599775a8895254ffbc0fc45621334f68,"Validate (and ensure validation sticks) inputs for `MatrixTriangularSolve`.
+
+PiperOrigin-RevId: 370282444
+Change-Id: Iaed61a0b0727cc42c830658b72eb69f785f48dc5",https://github.com/tensorflow/tensorflow/commit/480641e3599775a8895254ffbc0fc45621334f68,Mihai Maruseac,4/24/2021 23:47,https://api.github.com/repos/tensorflow/tensorflow/git/commits/480641e3599775a8895254ffbc0fc45621334f68,1
+70,6008,6008,744009c9e5cc5d0447f0dc39d055f917e1fd9e16,"Validate work in `QuantizedAdd`, ensure at least one element.
+
+PiperOrigin-RevId: 370127996
+Change-Id: I57c6f3e01afdeada84737820a131590137463855",https://github.com/tensorflow/tensorflow/commit/744009c9e5cc5d0447f0dc39d055f917e1fd9e16,Mihai Maruseac,4/23/2021 19:00,https://api.github.com/repos/tensorflow/tensorflow/git/commits/744009c9e5cc5d0447f0dc39d055f917e1fd9e16,1
+71,6010,6010,d6ed5bcfe1dcab9e85a4d39931bd18d99018e75b,"Add missing validation in `QuantizedBatchNormWithGlobalNormalization`
+
+PiperOrigin-RevId: 370123451
+Change-Id: Id234d6dab1ec21230bb8e503dba30f899af87f33",https://github.com/tensorflow/tensorflow/commit/d6ed5bcfe1dcab9e85a4d39931bd18d99018e75b,Mihai Maruseac,4/23/2021 18:40,https://api.github.com/repos/tensorflow/tensorflow/git/commits/d6ed5bcfe1dcab9e85a4d39931bd18d99018e75b,1
+72,6018,6018,67784700869470d65d5f2ef20aeb5e97c31673cb,"Prevent division by 0 in `QuantizedBiasAdd`.
+
+PiperOrigin-RevId: 370117454
+Change-Id: I3804e2ac8dcc6d3afcc92e27853e2325a017ca4d",https://github.com/tensorflow/tensorflow/commit/67784700869470d65d5f2ef20aeb5e97c31673cb,Mihai Maruseac,4/23/2021 18:11,https://api.github.com/repos/tensorflow/tensorflow/git/commits/67784700869470d65d5f2ef20aeb5e97c31673cb,0
+73,6020,6020,1e922ccdf6bf46a3a52641f99fd47d54c1decd13,"Fix crash in `SparseTensorToCSRSparseMatrixCPUFunctor`
+
+PiperOrigin-RevId: 370110290
+Change-Id: I4451e92661a55c2180f80d38b67a9b50bf5edec5",https://github.com/tensorflow/tensorflow/commit/1e922ccdf6bf46a3a52641f99fd47d54c1decd13,Mihai Maruseac,4/23/2021 17:41,https://api.github.com/repos/tensorflow/tensorflow/git/commits/1e922ccdf6bf46a3a52641f99fd47d54c1decd13,0
+74,6022,6022,e07e1c3d26492c06f078c7e5bf2d138043e199c1,"Prevent memory overflow in ParseAttrValue from nested tensors.
+
+PiperOrigin-RevId: 370108442
+Change-Id: I84d64a5e8895a6aeffbf4749841b4c54d51b5889",https://github.com/tensorflow/tensorflow/commit/e07e1c3d26492c06f078c7e5bf2d138043e199c1,Laura Pak,4/23/2021 17:33,https://api.github.com/repos/tensorflow/tensorflow/git/commits/e07e1c3d26492c06f078c7e5bf2d138043e199c1,0
+75,6091,6091,ea3b43e98c32c97b35d52b4c66f9107452ca8fb2,"Fix `tf.raw_ops.CTCGreedyDecoder` CHECK failure.
+
+PiperOrigin-RevId: 369960465
+Change-Id: If0b8b3264d5a47a24ac0970ed7b81ce6b4921fae",https://github.com/tensorflow/tensorflow/commit/ea3b43e98c32c97b35d52b4c66f9107452ca8fb2,Amit Patankar,4/22/2021 22:11,https://api.github.com/repos/tensorflow/tensorflow/git/commits/ea3b43e98c32c97b35d52b4c66f9107452ca8fb2,0
+76,6100,6100,ba424dd8f16f7110eea526a8086f1a155f14f22b,"Enhance validation of ngram op and handle case of 0 tokens.
+
+PiperOrigin-RevId: 369940178
+Change-Id: Ia82f42c09d14efe76e7dc013505b832a42282f0b",https://github.com/tensorflow/tensorflow/commit/ba424dd8f16f7110eea526a8086f1a155f14f22b,Mihai Maruseac,4/22/2021 20:29,https://api.github.com/repos/tensorflow/tensorflow/git/commits/ba424dd8f16f7110eea526a8086f1a155f14f22b,0
+77,6167,6167,a324ac84e573fba362a5e53d4e74d5de6729933e,"Validate arguments to `QuantizedReshape`.
+
+Ensure that validations from `Reshape` also terminate `QuantizedReshape` on failure.
+
+PiperOrigin-RevId: 369775421
+Change-Id: If8c5342267aceea65b7cb83a4b183304886f1ce8",https://github.com/tensorflow/tensorflow/commit/a324ac84e573fba362a5e53d4e74d5de6729933e,Mihai Maruseac,4/22/2021 1:11,https://api.github.com/repos/tensorflow/tensorflow/git/commits/a324ac84e573fba362a5e53d4e74d5de6729933e,1
+78,6171,6171,c570e2ecfc822941335ad48f6e10df4e21f11c96,"Fix issues in Conv2DBackpropFilter.
+
+PiperOrigin-RevId: 369772454
+Change-Id: I49b465f2ae2ce91def61b56cea8000197d5177d8",https://github.com/tensorflow/tensorflow/commit/c570e2ecfc822941335ad48f6e10df4e21f11c96,Mihai Maruseac,4/22/2021 0:50,https://api.github.com/repos/tensorflow/tensorflow/git/commits/c570e2ecfc822941335ad48f6e10df4e21f11c96,1
+79,6173,6173,f6c40f0c6cbf00d46c7717a26419f2062f2f8694,"Validate min and max arguments to `QuantizedResizeBilinear`.
+
+PiperOrigin-RevId: 369765091
+Change-Id: I33be8b78273ab7d08b97541692fe05cb7f94963a",https://github.com/tensorflow/tensorflow/commit/f6c40f0c6cbf00d46c7717a26419f2062f2f8694,Mihai Maruseac,4/22/2021 0:00,https://api.github.com/repos/tensorflow/tensorflow/git/commits/f6c40f0c6cbf00d46c7717a26419f2062f2f8694,0
+80,6181,6181,f851613f8f0fb0c838d160ced13c134f778e3ce7,"Fix heap buffer overflow caused by rounding.
+
+This was hard to fix. Due to the way we compute the pixels that influence an output pixel in resized images, for certain input configuration we might have issued a read to a pixel that is outside of boundary of the original image. This is because of floating errors that affected truncation results.
+
+PiperOrigin-RevId: 369757871
+Change-Id: If89425fff930983829a2168203c11858883eebc9",https://github.com/tensorflow/tensorflow/commit/f851613f8f0fb0c838d160ced13c134f778e3ce7,Mihai Maruseac,4/21/2021 23:20,https://api.github.com/repos/tensorflow/tensorflow/git/commits/f851613f8f0fb0c838d160ced13c134f778e3ce7,1
+81,6182,6182,44b7f486c0143f68b56c34e2d01e146ee445134a,"Fix out of bounds read in `ragged_cross_op.cc`.
+
+PiperOrigin-RevId: 369757702
+Change-Id: Ie6e5d2c21513a8d56bf41fcf35960caf76e890f9",https://github.com/tensorflow/tensorflow/commit/44b7f486c0143f68b56c34e2d01e146ee445134a,Mihai Maruseac,4/21/2021 23:19,https://api.github.com/repos/tensorflow/tensorflow/git/commits/44b7f486c0143f68b56c34e2d01e146ee445134a,0
+82,6183,6183,efea03b38fb8d3b81762237dc85e579cc5fc6e87,"Validate inputs to `QuantizedMul`
+
+PiperOrigin-RevId: 369756982
+Change-Id: I00d960cc3b9316fd7a86bd37a44e341c96e17624",https://github.com/tensorflow/tensorflow/commit/efea03b38fb8d3b81762237dc85e579cc5fc6e87,Mihai Maruseac,4/21/2021 23:15,https://api.github.com/repos/tensorflow/tensorflow/git/commits/efea03b38fb8d3b81762237dc85e579cc5fc6e87,1
+83,6185,6185,b432a38fe0e1b4b904a6c222cbce794c39703e87,"Fix overflow CHECK issue with `tf.raw_ops.DrawBoundingBoxes`.
+
+PiperOrigin-RevId: 369753591
+Change-Id: I3b45fc98ee0d28a3c20b7e9c995aa647c976ec40",https://github.com/tensorflow/tensorflow/commit/b432a38fe0e1b4b904a6c222cbce794c39703e87,Amit Patankar,4/21/2021 22:57,https://api.github.com/repos/tensorflow/tensorflow/git/commits/b432a38fe0e1b4b904a6c222cbce794c39703e87,0
+84,6202,6202,26eb323554ffccd173e8a79a8c05c15b685ae4d1,"Fix null CHECK issue with `tf.raw_ops.EncodePng`.
+
+PiperOrigin-RevId: 369717714
+Change-Id: I24136cd99c20b8466671f4f93b670ef6f6dd1250",https://github.com/tensorflow/tensorflow/commit/26eb323554ffccd173e8a79a8c05c15b685ae4d1,Amit Patankar,4/21/2021 20:03,https://api.github.com/repos/tensorflow/tensorflow/git/commits/26eb323554ffccd173e8a79a8c05c15b685ae4d1,0
+85,6285,6285,e6a7c7cc18c3aaad1ae0872cb0a959f5c923d2bd,"Remove `OP_REQUIRES` call from helper function.
+
+Since `OP_REQUIRES` macro expands to a `return;` (among other), calling it in a helper function only ends the helper function's execution earlier, but the kernel will still run from start to end. Thus, all the expected validations are actually broken/useless as the code ploughs through the next crash anyway.
+
+PiperOrigin-RevId: 369524386
+Change-Id: I54f6cf9328445675ccc392e661b04336b229c9da",https://github.com/tensorflow/tensorflow/commit/e6a7c7cc18c3aaad1ae0872cb0a959f5c923d2bd,Mihai Maruseac,4/20/2021 21:45,https://api.github.com/repos/tensorflow/tensorflow/git/commits/e6a7c7cc18c3aaad1ae0872cb0a959f5c923d2bd,0
+86,6294,6294,69c68ecbb24dff3fa0e46da0d16c821a2dd22d7c,"Fix overflow CHECK issue with `tf.raw_ops.AddManySparseToTensorsMap`.
+
+PiperOrigin-RevId: 369492969
+Change-Id: I1d70d6c0c92e3d7a25bc3b3aa2a0c0ac9688bf81",https://github.com/tensorflow/tensorflow/commit/69c68ecbb24dff3fa0e46da0d16c821a2dd22d7c,Amit Patankar,4/20/2021 19:14,https://api.github.com/repos/tensorflow/tensorflow/git/commits/69c68ecbb24dff3fa0e46da0d16c821a2dd22d7c,0
+87,6305,6305,a1b11d2fdd1e51bfe18bb1ede804f60abfa92da6,"Fix one division by zero
+
+PiperOrigin-RevId: 369474832
+Change-Id: I1082858ed78d9b2e4738ce30b231955973d49e1e",https://github.com/tensorflow/tensorflow/commit/a1b11d2fdd1e51bfe18bb1ede804f60abfa92da6,Mihai Maruseac,4/20/2021 17:52,https://api.github.com/repos/tensorflow/tensorflow/git/commits/a1b11d2fdd1e51bfe18bb1ede804f60abfa92da6,0
+88,6345,6345,cfa91be9863a91d5105a3b4941096044ab32036b,"Fix one FPE and remove two CHECK-fails.
+
+PiperOrigin-RevId: 369349640
+Change-Id: I1fedbfc2b5bab635c5cb51f103d7c9176f79831a",https://github.com/tensorflow/tensorflow/commit/cfa91be9863a91d5105a3b4941096044ab32036b,Mihai Maruseac,4/20/2021 1:58,https://api.github.com/repos/tensorflow/tensorflow/git/commits/cfa91be9863a91d5105a3b4941096044ab32036b,0
+89,6350,6350,b12aa1d44352de21d1a6faaf04172d8c2508b42b,"Fix one more FPE.
+
+PiperOrigin-RevId: 369346568
+Change-Id: I840fd575962adc879713a4c9cc59e6da3331caa7",https://github.com/tensorflow/tensorflow/commit/b12aa1d44352de21d1a6faaf04172d8c2508b42b,Mihai Maruseac,4/20/2021 1:32,https://api.github.com/repos/tensorflow/tensorflow/git/commits/b12aa1d44352de21d1a6faaf04172d8c2508b42b,0
+90,6354,6354,2be2cdf3a123e231b16f766aa0e27d56b4606535,"Prevent yet another division by zero
+
+PiperOrigin-RevId: 369343977
+Change-Id: I1a60da4cf512e60fd91e069c16e026544632fe7f",https://github.com/tensorflow/tensorflow/commit/2be2cdf3a123e231b16f766aa0e27d56b4606535,Mihai Maruseac,4/20/2021 1:13,https://api.github.com/repos/tensorflow/tensorflow/git/commits/2be2cdf3a123e231b16f766aa0e27d56b4606535,1
+91,6367,6367,fca9874a9b42a2134f907d2fb46ab774a831404a,"Prevent another division by zero.
+
+PiperOrigin-RevId: 369338598
+Change-Id: I55471d363e401fdcf8d259670ad4eef672b731e2",https://github.com/tensorflow/tensorflow/commit/fca9874a9b42a2134f907d2fb46ab774a831404a,Mihai Maruseac,4/20/2021 0:33,https://api.github.com/repos/tensorflow/tensorflow/git/commits/fca9874a9b42a2134f907d2fb46ab774a831404a,1
+92,6380,6380,311403edbc9816df80274bd1ea8b3c0c0f22c3fa,"Eliminate a division by 0 in 3D convolutions.
+
+Also prevent a CHECK failed introduced in the most recent change.
+
+PiperOrigin-RevId: 369322073
+Change-Id: I4f609c028f89565fb2b49c3fdd20b63496582bae",https://github.com/tensorflow/tensorflow/commit/311403edbc9816df80274bd1ea8b3c0c0f22c3fa,Mihai Maruseac,4/19/2021 23:00,https://api.github.com/repos/tensorflow/tensorflow/git/commits/311403edbc9816df80274bd1ea8b3c0c0f22c3fa,1
+93,6415,6415,8f37b52e1320d8d72a9529b2468277791a261197,"Validate some shape requirements for `Conv3DBackpropFilter*` and `Conv3DBackpropInput*` ops.
+
+Older versions of Eigen might otherwise crash / produce OOB read on specially crafted inputs.
+
+PiperOrigin-RevId: 369293977
+Change-Id: I58f51445a93936d7cf8e616f75de17677df36718",https://github.com/tensorflow/tensorflow/commit/8f37b52e1320d8d72a9529b2468277791a261197,Mihai Maruseac,4/19/2021 20:46,https://api.github.com/repos/tensorflow/tensorflow/git/commits/8f37b52e1320d8d72a9529b2468277791a261197,1
+94,6432,6432,c57c0b9f3a4f8684f3489dd9a9ec627ad8b599f5,"Fix the segfault in `tf.raw_ops.SparseCountSparseOutput`.
+
+PiperOrigin-RevId: 369264941
+Change-Id: I23a96a15b8370c01ee21ba3841e1c7dcbf55e93d",https://github.com/tensorflow/tensorflow/commit/c57c0b9f3a4f8684f3489dd9a9ec627ad8b599f5,Amit Patankar,4/19/2021 18:33,https://api.github.com/repos/tensorflow/tensorflow/git/commits/c57c0b9f3a4f8684f3489dd9a9ec627ad8b599f5,0
+95,6437,6437,e6340f0665d53716ef3197ada88936c2a5f7a2d3,"Handle a special grappler case resulting in crash.
+
+It might happen that a malformed input could be used to trick Grappler into trying to optimize a node with no inputs. This, in turn, would produce a null pointer dereference and a segfault.
+
+PiperOrigin-RevId: 369242852
+Change-Id: I2e5cbe7aec243d34a6d60220ac8ac9b16f136f6b",https://github.com/tensorflow/tensorflow/commit/e6340f0665d53716ef3197ada88936c2a5f7a2d3,Mihai Maruseac,4/19/2021 16:57,https://api.github.com/repos/tensorflow/tensorflow/git/commits/e6340f0665d53716ef3197ada88936c2a5f7a2d3,0
+96,6438,6438,799f835a3dfa00a4d852defa29b15841eea9d64f,"Fix 2 issues with `Conv3D`.
+
+We have an issue where the dimensions are not matching and this causes Eigen to crash on an assert.
+
+Then, we have an issue where we accidentally do a division by 0.
+
+PiperOrigin-RevId: 369242785
+Change-Id: Ie94067b2d41f58699af99ebb5af335ad9defd931",https://github.com/tensorflow/tensorflow/commit/799f835a3dfa00a4d852defa29b15841eea9d64f,Mihai Maruseac,4/19/2021 16:56,https://api.github.com/repos/tensorflow/tensorflow/git/commits/799f835a3dfa00a4d852defa29b15841eea9d64f,0
+97,6474,6474,a7116dd3913c4a4afd2a3a938573aa7c785fdfc6,"Validate `MatrixDiagV{2,3}` arguments to prevent breakage.
+
+PiperOrigin-RevId: 369056033
+Change-Id: Ic2018c297d3dd6f252dc1dd3667f1ed5cb1eaa42",https://github.com/tensorflow/tensorflow/commit/a7116dd3913c4a4afd2a3a938573aa7c785fdfc6,Mihai Maruseac,4/18/2021 3:55,https://api.github.com/repos/tensorflow/tensorflow/git/commits/a7116dd3913c4a4afd2a3a938573aa7c785fdfc6,1
+98,6579,6579,b761c9b652af2107cfbc33efd19be0ce41daa33e,"Fix `tf.raw_ops.RaggedTensorToTensor` failing CHECK.
+
+PiperOrigin-RevId: 368706628
+Change-Id: I5c9ea4833f38835ee183ca50d63251dc89c9f3bc",https://github.com/tensorflow/tensorflow/commit/b761c9b652af2107cfbc33efd19be0ce41daa33e,Amit Patankar,4/15/2021 20:28,https://api.github.com/repos/tensorflow/tensorflow/git/commits/b761c9b652af2107cfbc33efd19be0ce41daa33e,0
+99,6581,6581,b1cc5e5a50e7cee09f2c6eb48eb40ee9c4125025,"Fix `tf.raw_ops.SparseCross` failing CHECK.
+
+PiperOrigin-RevId: 368701671
+Change-Id: Id805729dd9ba0bda36e4bb309408129b55fb649d",https://github.com/tensorflow/tensorflow/commit/b1cc5e5a50e7cee09f2c6eb48eb40ee9c4125025,Amit Patankar,4/15/2021 20:03,https://api.github.com/repos/tensorflow/tensorflow/git/commits/b1cc5e5a50e7cee09f2c6eb48eb40ee9c4125025,0
+100,6734,6734,f94ef358bb3e91d517446454edff6535bcfe8e4a,"Fix `tf.raw_ops.RaggedTensorToTensor` failing CHECK in `tensor.cc`.
+
+PiperOrigin-RevId: 368300502
+Change-Id: I91255d23c4bfd3aa3c029aac773937c09daf3c64",https://github.com/tensorflow/tensorflow/commit/f94ef358bb3e91d517446454edff6535bcfe8e4a,Amit Patankar,4/13/2021 21:54,https://api.github.com/repos/tensorflow/tensorflow/git/commits/f94ef358bb3e91d517446454edff6535bcfe8e4a,0
+101,6735,6735,b055b9c474cd376259dde8779908f9eeaf097d93,"Fix `tf.raw_ops.RaggedTensorToVariant` invalid resize.
+
+PiperOrigin-RevId: 368299574
+Change-Id: I751c186325aa0bab397928845e790e60c2d90918",https://github.com/tensorflow/tensorflow/commit/b055b9c474cd376259dde8779908f9eeaf097d93,Amit Patankar,4/13/2021 21:49,https://api.github.com/repos/tensorflow/tensorflow/git/commits/b055b9c474cd376259dde8779908f9eeaf097d93,0
+102,6737,6737,030af767d357d1b4088c4a25c72cb3906abac489,"Fix `tf.raw_ops.ResourceCountUpTo` null pointer dereference.
+
+PiperOrigin-RevId: 368294347
+Change-Id: I2c16fbfc9b4966c402c3d8e311f0d665a9c852d8",https://github.com/tensorflow/tensorflow/commit/030af767d357d1b4088c4a25c72cb3906abac489,Amit Patankar,4/13/2021 21:25,https://api.github.com/repos/tensorflow/tensorflow/git/commits/030af767d357d1b4088c4a25c72cb3906abac489,0
+103,6738,6738,ff70c47a396ef1e3cb73c90513da4f5cb71bebba,"Fix `tf.raw_ops.GetSessionTensor` and `tf.raw_ops.DeleteSessionTensor` null pointer dereferences.
+
+PiperOrigin-RevId: 368294154
+Change-Id: Ie10f07a0a9a1c2b685e08153d48a0ca4b93f9fc9",https://github.com/tensorflow/tensorflow/commit/ff70c47a396ef1e3cb73c90513da4f5cb71bebba,Amit Patankar,4/13/2021 21:24,https://api.github.com/repos/tensorflow/tensorflow/git/commits/ff70c47a396ef1e3cb73c90513da4f5cb71bebba,0
+104,6739,6739,eebb96c2830d48597d055d247c0e9aebaea94cd5,"Fix an invalid address vulnerability in `tf.raw_ops.RaggedBincount`.
+
+PiperOrigin-RevId: 368293153
+Change-Id: I4b4e493d3fd05e7dc55a55de3a041a80a4f275c3",https://github.com/tensorflow/tensorflow/commit/eebb96c2830d48597d055d247c0e9aebaea94cd5,Amit Patankar,4/13/2021 21:18,https://api.github.com/repos/tensorflow/tensorflow/git/commits/eebb96c2830d48597d055d247c0e9aebaea94cd5,1
+105,7186,7186,63333b967844327856352f484aeddd1509b10604,"Fix crash with tf.transpose when a is complex and conjugate is True
+
+This PR tries to address the issue raised in 46891 where
+tf.transpose will crash when a is complex and conjugate is True.
+The issue comes from:
+https://github.com/tensorflow/tensorflow/blob/57bbc5e0d4b93483b8ae853352173516f1c08018/tensorflow/core/kernels/transpose_functor.h#L169
+
+However, as ndims < 2 has already been handled properly:
+https://github.com/tensorflow/tensorflow/blob/57bbc5e0d4b93483b8ae853352173516f1c08018/tensorflow/core/kernels/transpose_functor_cpu.cc#L103-L105
+The check could be removed.
+
+This PR fixes 46891.
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>",https://github.com/tensorflow/tensorflow/commit/63333b967844327856352f484aeddd1509b10604,Yong Tang,2/6/2021 18:53,https://api.github.com/repos/tensorflow/tensorflow/git/commits/63333b967844327856352f484aeddd1509b10604,0
+106,9515,9515,82e6203221865de4008445b13c69b6826d2b28d9,"Fix segfaults in `tf.raw_ops.SparseCountSparseOutput`.
+
+PiperOrigin-RevId: 360547563
+Change-Id: I781c7af4b54a63d867c6e18d43a44d64a5c4e7c9",https://github.com/tensorflow/tensorflow/commit/82e6203221865de4008445b13c69b6826d2b28d9,Amit Patankar,3/3/2021 1:02,https://api.github.com/repos/tensorflow/tensorflow/git/commits/82e6203221865de4008445b13c69b6826d2b28d9,0
+107,10977,10977,4f663d4b8f0bec1b48da6fa091a7d29609980fa4,"Allowlist certain data types to avoid a seg fault.
+
+PiperOrigin-RevId: 356326671
+Change-Id: I23b65b52e93798cb5a6744632d31b0f88c6b6b31",https://github.com/tensorflow/tensorflow/commit/4f663d4b8f0bec1b48da6fa091a7d29609980fa4,Amit Patankar,2/8/2021 20:29,https://api.github.com/repos/tensorflow/tensorflow/git/commits/4f663d4b8f0bec1b48da6fa091a7d29609980fa4,0
+108,11043,11043,7edb8c9b83ad583616406af61e0de61393996a3e,"Fix crash of tf.strings.substr when pos and len have different shapes
+
+This PR tries to address the issue raised in 46900 where
+tf.strings.substr will crash when pos and len have different shapes.
+According to the documentation of tf.strings.substr, ValueError
+should be raised instead when pos and len does not have the same shape.
+
+This PR add shape check in kernel to allows grace error throw (instead of crash).
+
+This PR fixes 46900.
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>",https://github.com/tensorflow/tensorflow/commit/7edb8c9b83ad583616406af61e0de61393996a3e,Yong Tang,2/6/2021 20:24,https://api.github.com/repos/tensorflow/tensorflow/git/commits/7edb8c9b83ad583616406af61e0de61393996a3e,0
+109,14431,14431,0cc38aaa4064fd9e79101994ce9872c6d91f816b,"Prevent unitialized memory access in `GraphConstructor::MakeEdge`
+
+The `MakeEdge` implementation assumes that there exists an output at `output_index` of `src` node and an input at `input_index` of `dst` node. However, if this is not the case this results in accessing data out of bounds. Because we are accessing an array that is a private member of a class and only in read only mode, this usually results only in unitialized memory access. However, it is reasonable to think that malicious users could manipulate these indexes to actually read data outside the class, thus resulting in information leakage and further exploits.
+
+PiperOrigin-RevId: 346343288
+Change-Id: I2127da27c2023d27f26efd39afa6c853385cab6f",https://github.com/tensorflow/tensorflow/commit/0cc38aaa4064fd9e79101994ce9872c6d91f816b,Mihai Maruseac,12/8/2020 17:31,https://api.github.com/repos/tensorflow/tensorflow/git/commits/0cc38aaa4064fd9e79101994ce9872c6d91f816b,1
+110,14472,14472,14755416e364f17fb1870882fa778c7fec7f16e3,"Prevent CHECK-fail in LSTM/GRU with zero-length input.
+
+PiperOrigin-RevId: 346239181
+Change-Id: I5f233dbc076aab7bb4e31ba24f5abd4eaf99ea4f",https://github.com/tensorflow/tensorflow/commit/14755416e364f17fb1870882fa778c7fec7f16e3,Mihai Maruseac,12/8/2020 4:31,https://api.github.com/repos/tensorflow/tensorflow/git/commits/14755416e364f17fb1870882fa778c7fec7f16e3,1
+111,14508,14508,8b5b9dc96666a3a5d27fad7179ff215e3b74b67c,"Completely rewrite `GetMatchingPaths`.
+
+The current parallel implementation is too complex (lambda inside lambda, two levels of parallelism) and has a read outside of bounds issue.
+
+The new implementation cleans up artifacts from the previous implementations that were left in the code as it evolves. We add multiple helper functions, and document invariants and preconditions as well as every major step. This way, we fix the security issue and a potential new one which was not caught before
+
+PiperOrigin-RevId: 346146220
+Change-Id: Iec0f44673f43349797bf9944dffe9b2f779137d8",https://github.com/tensorflow/tensorflow/commit/8b5b9dc96666a3a5d27fad7179ff215e3b74b67c,Mihai Maruseac,12/7/2020 19:57,https://api.github.com/repos/tensorflow/tensorflow/git/commits/8b5b9dc96666a3a5d27fad7179ff215e3b74b67c,1
+112,14510,14510,ebc70b7a592420d3d2f359e4b1694c236b82c7ae,"Validate that `DataFormat*` attributes form a permutation.
+
+The `src_format` and `dst_format` attributes for the `DataFormatDimMap` and `DataFormatVecPermute` raw ops are supposed to determine a permutation. However, this was not validated and could result in unitialized memory accesses as well as writes outside of bounds and potential crashes.
+
+While here, we also test that the format attributes have the needed length, add tests for all validation failure cases, remove unnecessary calls to `strings::StrCat`, and fix a few grammar errors.
+
+This will be cherry-picked on the supported release branches.
+
+PiperOrigin-RevId: 346135579
+Change-Id: I1c76392382c89ad8f072d5bc93d70669851eb404",https://github.com/tensorflow/tensorflow/commit/ebc70b7a592420d3d2f359e4b1694c236b82c7ae,Mihai Maruseac,12/7/2020 19:15,https://api.github.com/repos/tensorflow/tensorflow/git/commits/ebc70b7a592420d3d2f359e4b1694c236b82c7ae,1
+113,14581,14581,c1e1fc899ad5f8c725dcbb6470069890b5060bc7,"Mark `MemmappedTensorAllocator` as returning opaque handle.
+
+This allocator is used for `ImmutableConstantOp` and it returns a handle to the contents of a memory mapped file which is supposed to represent a tensor.
+
+For tensors of complex types (resources, variables and strings), allocators which are not marked as returning opaque handles will call placement new to initialize each element. This means writing to the buffer. However, in our case, the buffer is immutable and already contains the tensor data. Hence, writing to it is both destructive and causes a crash.
+
+PiperOrigin-RevId: 345786451
+Change-Id: I46369c50fa60b3431709ffe068a728d3061f49c4",https://github.com/tensorflow/tensorflow/commit/c1e1fc899ad5f8c725dcbb6470069890b5060bc7,Mihai Maruseac,12/5/2020 1:06,https://api.github.com/repos/tensorflow/tensorflow/git/commits/c1e1fc899ad5f8c725dcbb6470069890b5060bc7,0
+114,15156,15156,ace0c15a22f7f054abcc1f53eabbcb0a1239a9e2,"Default initialize fixed point Eigen types.
+
+In certain cases, tensors are filled with default values of the type. But, for these fixed point types, these values were uninitialized. Thus, we would have uninitialized memory access bugs, some of which were caught by MSAN.
+
+PiperOrigin-RevId: 344101137
+Change-Id: I14555fda74dca3b5f1582da9008901937e3f14e2",https://github.com/tensorflow/tensorflow/commit/ace0c15a22f7f054abcc1f53eabbcb0a1239a9e2,Mihai Maruseac,11/24/2020 19:40,https://api.github.com/repos/tensorflow/tensorflow/git/commits/ace0c15a22f7f054abcc1f53eabbcb0a1239a9e2,0
+115,17480,17480,eccb7ec454e6617738554a255d77f08e60ee0808,"Prevent segfault in `quantize_and_dequantize`
+
+Fixes #42105.
+
+If `tf.quantization.quantize_and_dequantize` is called with `axis` argument pointing to outside of the input tensor, we obtain a `CHECK` fail which then aborts the application/interpreter. This change adds a condition check and returns a `Status` instead of crashing.
+
+PiperOrigin-RevId: 337972243
+Change-Id: I71ec32c00a87266e364fb017f0ad5dfd3e23542f",https://github.com/tensorflow/tensorflow/commit/eccb7ec454e6617738554a255d77f08e60ee0808,Mihai Maruseac,10/20/2020 0:56,https://api.github.com/repos/tensorflow/tensorflow/git/commits/eccb7ec454e6617738554a255d77f08e60ee0808,1
+116,19652,19652,da8558533d925694483d2c136a9220d6d49d843c,"Fix undefined behavior in `tf.raw_ops.Switch` in eager mode.
+
+PiperOrigin-RevId: 332578058
+Change-Id: I9727571d2f21476b10d8aa27c1b7176564b76ac9",https://github.com/tensorflow/tensorflow/commit/da8558533d925694483d2c136a9220d6d49d843c,Mihai Maruseac,9/19/2020 4:16,https://api.github.com/repos/tensorflow/tensorflow/git/commits/da8558533d925694483d2c136a9220d6d49d843c,0
+117,19653,19653,22e07fb204386768e5bcbea563641ea11f96ceb8,"Fix multiple vulnerabilities in `tf.experimental.dlpack.to_dlpack`.
+
+We have a use after free caused by memory coruption, a segmentation fault caused by memory corruption, several memory leaks and an undefined behavior when taking the reference of a nullptr.
+
+PiperOrigin-RevId: 332568894
+Change-Id: Ife0fc05e103b35325094ae5d822ee5fdea764572",https://github.com/tensorflow/tensorflow/commit/22e07fb204386768e5bcbea563641ea11f96ceb8,Mihai Maruseac,9/19/2020 2:14,https://api.github.com/repos/tensorflow/tensorflow/git/commits/22e07fb204386768e5bcbea563641ea11f96ceb8,0
+118,19654,19654,390611e0d45c5793c7066110af37c8514e6a6c54,"Fix heap buffer overflow in `tf.raw_ops.SparseFillEmptyRowsGrad`.
+
+Also add tests as they were lacking
+
+PiperOrigin-RevId: 332566071
+Change-Id: I44277578e26ff5fb3fdb0dcbba6e91b2ec3e7859",https://github.com/tensorflow/tensorflow/commit/390611e0d45c5793c7066110af37c8514e6a6c54,Mihai Maruseac,9/19/2020 1:43,https://api.github.com/repos/tensorflow/tensorflow/git/commits/390611e0d45c5793c7066110af37c8514e6a6c54,0
+119,19656,19656,3cbb917b4714766030b28eba9fb41bb97ce9ee02,"Fix multiple vulnerabilities in `tf.raw_ops.*CountSparseOutput`.
+
+Also add tests for these API points, both for the happy paths and for the vulnerable ones.
+
+PiperOrigin-RevId: 332563222
+Change-Id: Ib3b52116a83a134c2e742a7c66e5e956db8fba05",https://github.com/tensorflow/tensorflow/commit/3cbb917b4714766030b28eba9fb41bb97ce9ee02,Mihai Maruseac,9/19/2020 1:15,https://api.github.com/repos/tensorflow/tensorflow/git/commits/3cbb917b4714766030b28eba9fb41bb97ce9ee02,0
+120,19658,19658,ca8c013b5e97b1373b3bb1c97ea655e69f31a575,"Prevent integer truncation from 64 to 32 bits.
+
+The `tensorflow::Shard` functions last argument must be a 2 argument function where both arguments are `int64` (`long long`, 64 bits). However, there are usages where code passes in a function where arguments are `int` or `int32` (32 bits). In these cases, it is possible that the integer truncation would later cause a segfault or other unexpected behavior.
+
+PiperOrigin-RevId: 332560414
+Change-Id: Ief649406babc8d4f60b3e7a9d573cbcc5ce5b767",https://github.com/tensorflow/tensorflow/commit/ca8c013b5e97b1373b3bb1c97ea655e69f31a575,Mihai Maruseac,9/19/2020 0:49,https://api.github.com/repos/tensorflow/tensorflow/git/commits/ca8c013b5e97b1373b3bb1c97ea655e69f31a575,0
+121,19660,19660,27b417360cbd671ef55915e4bb6bb06af8b8a832,"Prevent `int64` to `int` truncation in `Shard` API usage.
+
+The function argument in `Shard` must be a function of two `int64` arguments. However, we are passing in a function with two `int` arguments. Thus, for large workloads, these arguments get truncated from positive `int64` values to negative `int` ones, resulting in a buffer out of bounds write.
+
+PiperOrigin-RevId: 332557334
+Change-Id: I236c9a2e7f53580e520571da8ba941a3aa9fa0b5",https://github.com/tensorflow/tensorflow/commit/27b417360cbd671ef55915e4bb6bb06af8b8a832,Mihai Maruseac,9/19/2020 0:21,https://api.github.com/repos/tensorflow/tensorflow/git/commits/27b417360cbd671ef55915e4bb6bb06af8b8a832,0
+122,19666,19666,33be22c65d86256e6826666662e40dbdfe70ee83,"Prevent format string vulnerability in `tf.strings.as_string`.
+
+The `printf` format specifier only allows `#`, `0`, `-`, `+` and space as flag characters. Others are interpreted as width/precision/length modifier or conversion specifiers. If a character does not fit into any of these sets `printf` just displays it.
+
+Also add a test suite for `tf.strings.as_string`. Also fix the issue where the flag character was used only if width was specified.
+
+PiperOrigin-RevId: 332553548
+Change-Id: Ie57cf2a7c14d1a36097642794c14329db669bbba",https://github.com/tensorflow/tensorflow/commit/33be22c65d86256e6826666662e40dbdfe70ee83,Mihai Maruseac,9/18/2020 23:54,https://api.github.com/repos/tensorflow/tensorflow/git/commits/33be22c65d86256e6826666662e40dbdfe70ee83,0
+123,19669,19669,9a133d73ae4b4664d22bd1aa6d654fec13c52ee1,"Prevent segfault in `GetSessionHandle{,V2}`.
+
+In eager mode, session state is null.
+
+PiperOrigin-RevId: 332548597
+Change-Id: If094812c2e094044220b9ba28f7d7601be042f38",https://github.com/tensorflow/tensorflow/commit/9a133d73ae4b4664d22bd1aa6d654fec13c52ee1,Mihai Maruseac,9/18/2020 23:23,https://api.github.com/repos/tensorflow/tensorflow/git/commits/9a133d73ae4b4664d22bd1aa6d654fec13c52ee1,0
+124,19674,19674,0462de5b544ed4731aa2fb23946ac22c01856b80,"Validate `data_splits` for `tf.StringNGrams`.
+
+Without validation, we can cause a heap buffer overflow which results in data leakage and/or segfaults.
+
+PiperOrigin-RevId: 332543478
+Change-Id: Iee5bda24497a195d09d122355502480830b1b317",https://github.com/tensorflow/tensorflow/commit/0462de5b544ed4731aa2fb23946ac22c01856b80,Mihai Maruseac,9/18/2020 22:52,https://api.github.com/repos/tensorflow/tensorflow/git/commits/0462de5b544ed4731aa2fb23946ac22c01856b80,1
+125,19678,19678,adf095206f25471e864a8e63a0f1caef53a0e3a6,"Validate `NodeDef`s from `FunctionDefLibrary` of a `GraphDef`.
+
+We already validated `NodeDef`s from a `GraphDef` but missed validating those from the `FunctionDefLibrary`. Thus, some maliciously crafted models could evade detection and cause denial of service due to a `CHECK`-fail.
+
+PiperOrigin-RevId: 332536309
+Change-Id: I052efe919ff1fe2f90815e286a1aa4c54c7b94ff",https://github.com/tensorflow/tensorflow/commit/adf095206f25471e864a8e63a0f1caef53a0e3a6,Mihai Maruseac,9/18/2020 22:10,https://api.github.com/repos/tensorflow/tensorflow/git/commits/adf095206f25471e864a8e63a0f1caef53a0e3a6,0
+126,19679,19679,2d88f470dea2671b430884260f3626b1fe99830a,"[tflite] Ensure `ResolveAxis` properly handles negative inputs.
+
+In Python, a list `l` of length `n` allows indexing with negative indices, `l[i]`. The only constraint is that `n + i` becomes positive. Code in `ResolveAxis` assumes the constraints and only checks it using a `DCHECK`. But the macro is a no-op in non-debug builds and that can result in reading from negative offsets (buffer underflows).
+
+PiperOrigin-RevId: 332530683
+Change-Id: I464e073fee618054ae3719a3679739007bb3f3bc",https://github.com/tensorflow/tensorflow/commit/2d88f470dea2671b430884260f3626b1fe99830a,Mihai Maruseac,9/18/2020 21:43,https://api.github.com/repos/tensorflow/tensorflow/git/commits/2d88f470dea2671b430884260f3626b1fe99830a,0
+127,19682,19682,8ee24e7949a203d234489f9da2c5bf45a7d5157d,"[tflite] Ensure `MatchingDim` does not allow buffer overflow.
+
+We check in `MatchingDim` that both arguments have the same dimensionality, however that is a `DCHECK` only enabled if building in debug mode. Hence, it could be possible to cause buffer overflows by passing in a tensor with larger dimensions as the second argument. To fix, we now make `MatchingDim` return the minimum of the two sizes.
+
+A much better fix would be to return a status object but that requires refactoring a large part of the codebase for minor benefits.
+
+PiperOrigin-RevId: 332526127
+Change-Id: If627d0d2c80a685217b6e0d1e64b0872dbf1c5e4",https://github.com/tensorflow/tensorflow/commit/8ee24e7949a203d234489f9da2c5bf45a7d5157d,Mihai Maruseac,9/18/2020 21:19,https://api.github.com/repos/tensorflow/tensorflow/git/commits/8ee24e7949a203d234489f9da2c5bf45a7d5157d,0
+128,19683,19683,0b5662bc2be13a8c8f044d925d87fb6e56247cd8,"[tflite] Ensure input tensors don't have `nullptr` buffers.
+
+A crafted TFLite model can force a node to have as input a tensor backed by a `nullptr` buffer. That is, by carefully changing the buffer index in the flatbuffer serialization, we can force the TFLite interpreter to consider a read-only tensor to be a read-write one and assume that there is an operator that has this tensor as output, writing to it and allocating memory before the tensor is used as input. If this does not happen, we get memory corruption.
+
+PiperOrigin-RevId: 332524692
+Change-Id: I57ef175152a29020af9ab041dc959e5631dce40f",https://github.com/tensorflow/tensorflow/commit/0b5662bc2be13a8c8f044d925d87fb6e56247cd8,Mihai Maruseac,9/18/2020 21:12,https://api.github.com/repos/tensorflow/tensorflow/git/commits/0b5662bc2be13a8c8f044d925d87fb6e56247cd8,0
+129,19685,19685,d58c96946b2880991d63d1dacacb32f0a4dfa453,"[tflite] Ensure inputs and outputs don't overlap.
+
+If a model uses the same tensor for both an input and an output then this can result in data loss and memory corruption. This should not happen.
+
+PiperOrigin-RevId: 332522916
+Change-Id: If0905b142415a9dfceaf2d181872f2a8fb88f48a",https://github.com/tensorflow/tensorflow/commit/d58c96946b2880991d63d1dacacb32f0a4dfa453,Mihai Maruseac,9/18/2020 21:04,https://api.github.com/repos/tensorflow/tensorflow/git/commits/d58c96946b2880991d63d1dacacb32f0a4dfa453,0
+130,19686,19686,1970c2158b1ffa416d159d03c3370b9a462aee35,"[tflite]: Insert `nullptr` checks when obtaining tensors.
+
+As part of ongoing refactoring, `tflite::GetInput`, `tflite::GetOutput`, `tflite::GetTemporary` and `tflite::GetIntermediates` will return `nullptr` in some cases. Hence, we insert the `nullptr` checks on all usages.
+
+We also insert `nullptr` checks on usages of `tflite::GetVariableInput` and `tflite::GetOptionalInputTensor` but only in the cases where there is no obvious check that `nullptr` is acceptable (that is, we only insert the check for the output of these two functions if the tensor is accessed as if it is always not `nullptr`).
+
+PiperOrigin-RevId: 332521299
+Change-Id: I29af455bcb48d0b92e58132d951a3badbd772d56",https://github.com/tensorflow/tensorflow/commit/1970c2158b1ffa416d159d03c3370b9a462aee35,Mihai Maruseac,9/18/2020 20:56,https://api.github.com/repos/tensorflow/tensorflow/git/commits/1970c2158b1ffa416d159d03c3370b9a462aee35,0
+131,19687,19687,fff2c8326280c07733828f990548979bdc893859,"[tflite]: Insert `nullptr` checks when obtaining tensors.
+
+As part of ongoing refactoring, `tflite::GetInput`, `tflite::GetOutput`, `tflite::GetTemporary` and `tflite::GetIntermediates` will return `nullptr` in some cases. Hence, we insert the `nullptr` checks on all usages.
+
+We also insert `nullptr` checks on usages of `tflite::GetVariableInput` and `tflite::GetOptionalInputTensor` but only in the cases where there is no obvious check that `nullptr` is acceptable (that is, we only insert the check for the output of these two functions if the tensor is accessed as if it is always not `nullptr`).
+
+PiperOrigin-RevId: 332520146
+Change-Id: I405d986cfc653aaafcfdf4162c0acbd46220b921",https://github.com/tensorflow/tensorflow/commit/fff2c8326280c07733828f990548979bdc893859,Mihai Maruseac,9/18/2020 20:50,https://api.github.com/repos/tensorflow/tensorflow/git/commits/fff2c8326280c07733828f990548979bdc893859,0
+132,19689,19689,cd31fd0ce0449a9e0f83dcad08d6ed7f1d6bef3f,"[tflite]: Insert `nullptr` checks when obtaining tensors.
+
+As part of ongoing refactoring, `tflite::GetInput`, `tflite::GetOutput`, `tflite::GetTemporary` and `tflite::GetIntermediates` will return `nullptr` in some cases. Hence, we insert the `nullptr` checks on all usages.
+
+We also insert `nullptr` checks on usages of `tflite::GetVariableInput` and `tflite::GetOptionalInputTensor` but only in the cases where there is no obvious check that `nullptr` is acceptable (that is, we only insert the check for the output of these two functions if the tensor is accessed as if it is always not `nullptr`).
+
+PiperOrigin-RevId: 332518902
+Change-Id: I92eb164a6101ac3cca66090061a9b56a97288236",https://github.com/tensorflow/tensorflow/commit/cd31fd0ce0449a9e0f83dcad08d6ed7f1d6bef3f,Mihai Maruseac,9/18/2020 20:44,https://api.github.com/repos/tensorflow/tensorflow/git/commits/cd31fd0ce0449a9e0f83dcad08d6ed7f1d6bef3f,0
+133,19691,19691,e11f55585f614645b360563072ffeb5c3eeff162,"[tflite]: Insert `nullptr` checks when obtaining tensors.
+
+As part of ongoing refactoring, `tflite::GetInput`, `tflite::GetOutput`, `tflite::GetTemporary` and `tflite::GetIntermediates` will return `nullptr` in some cases. Hence, we insert the `nullptr` checks on all usages.
+
+We also insert `nullptr` checks on usages of `tflite::GetVariableInput` and `tflite::GetOptionalInputTensor` but only in the cases where there is no obvious check that `nullptr` is acceptable (that is, we only insert the check for the output of these two functions if the tensor is accessed as if it is always not `nullptr`).
+
+PiperOrigin-RevId: 332517854
+Change-Id: Ic27221dd1f0fbe302f311c2fe5a846ed8ff02016",https://github.com/tensorflow/tensorflow/commit/e11f55585f614645b360563072ffeb5c3eeff162,Mihai Maruseac,9/18/2020 20:38,https://api.github.com/repos/tensorflow/tensorflow/git/commits/e11f55585f614645b360563072ffeb5c3eeff162,0
+134,19695,19695,00302787b788c5ff04cb6f62aed5a74d936e86c0,"[tflite] Make `GetOptionalInputTensor` the same as `GetInput`.
+
+With the previous change, there is no more need for two separate APIs. We would deprecate `GetOptionalInputTensor` in the future.
+
+PiperOrigin-RevId: 332513386
+Change-Id: Id7110271c25ebd6126ad8c82a493e37e0e0756b3",https://github.com/tensorflow/tensorflow/commit/00302787b788c5ff04cb6f62aed5a74d936e86c0,Mihai Maruseac,9/18/2020 20:16,https://api.github.com/repos/tensorflow/tensorflow/git/commits/00302787b788c5ff04cb6f62aed5a74d936e86c0,0
+135,19697,19697,46d5b0852528ddfd614ded79bccc75589f801bd9,"[tflite] Test for `kTfLiteOptionalTensor` in `GetInput`.
+
+`GetInput`, `GetVariableInput` and `GetOutput` all fail to check for the case where `node->inputs->data[index]` is the special `kTfLiteOptionalTensor` value (-1) which then causes `context->tensors[node->inputs->data[index]]` to read from invalid memory location.
+
+This fix makes `GetInput` and related return `nullptr` in those cases, asking the caller to check for `nullptr`. This is better than having `GetOptionalInputTensor` and `GetOptionalOutputTensor` (does not exist but could be added) as using the patched `GetInput` in error would be caught by a sanitizer test in the default optimized build (due to the `-fsanitize=null` option).
+
+PiperOrigin-RevId: 332512190
+Change-Id: Iabca54da2f2de02b6ece3c38b54f76d4277d689e",https://github.com/tensorflow/tensorflow/commit/46d5b0852528ddfd614ded79bccc75589f801bd9,Mihai Maruseac,9/18/2020 20:10,https://api.github.com/repos/tensorflow/tensorflow/git/commits/46d5b0852528ddfd614ded79bccc75589f801bd9,0
+136,19698,19698,204945b19e44b57906c9344c0d00120eeeae178a,"[tflite] Validate segment ids for segment_sum.
+
+Segment identifiers in segment_sum should be in a 1-D tensor of same size as the first dimension of the input. The values of the tensor should be integers from {0, 1, 2, ... k-1}, where k is the first dimension of the input. The segment identifiers must not contain jumps and must be increasing.
+
+See https://www.tensorflow.org/api_docs/python/tf/math#Segmentation as the source for these constraints.
+
+PiperOrigin-RevId: 332510942
+Change-Id: I898beaba00642c918bcd4b4d4ce893ebb190d869",https://github.com/tensorflow/tensorflow/commit/204945b19e44b57906c9344c0d00120eeeae178a,Mihai Maruseac,9/18/2020 20:04,https://api.github.com/repos/tensorflow/tensorflow/git/commits/204945b19e44b57906c9344c0d00120eeeae178a,1
+137,21343,21343,3ade2efec2e90c6237de32a19680caaa3ebc2845,"Fix segmentation fault in tf.image.crop_and_resize when boxes is inf or nan
+
+This fix tries to address the issue raised in 42129 where segmentation fault
+happened in tf.image.crop_and_resize when boxes is inf or nan.
+
+This fix adds the check to make sure boxes is not inf or nan (isfinite)
+
+This fix fixes 42129.
+
+Signed-off-by: Yong Tang <yong.tang.github@outlook.com>",https://github.com/tensorflow/tensorflow/commit/3ade2efec2e90c6237de32a19680caaa3ebc2845,Yong Tang,8/8/2020 0:47,https://api.github.com/repos/tensorflow/tensorflow/git/commits/3ade2efec2e90c6237de32a19680caaa3ebc2845,0
+138,31067,31067,fcfef195637c6e365577829c4d67681695956e7d,"Prevent loading saved models where constant nodes have no tensor value.
+
+Also reorder fuzz generated test cases following f760f88b4267d981e13f4b302c437ae800445968
+
+PiperOrigin-RevId: 308339007
+Change-Id: I11d825203964cf3397846c57fd4a6f458e8536f3",https://github.com/tensorflow/tensorflow/commit/fcfef195637c6e365577829c4d67681695956e7d,Mihai Maruseac,4/24/2020 22:32,https://api.github.com/repos/tensorflow/tensorflow/git/commits/fcfef195637c6e365577829c4d67681695956e7d,0
+139,31087,31087,f760f88b4267d981e13f4b302c437ae800445968,"Properly handle negative shape dimensions from improper saved models.
+
+PiperOrigin-RevId: 308283636
+Change-Id: Ib10849425de7d541d8dacfe4d0c709fbac9180b6",https://github.com/tensorflow/tensorflow/commit/f760f88b4267d981e13f4b302c437ae800445968,Mihai Maruseac,4/24/2020 17:49,https://api.github.com/repos/tensorflow/tensorflow/git/commits/f760f88b4267d981e13f4b302c437ae800445968,0
+140,40387,40387,5ac1b9e24ff6afc465756edf845d2e9660bd34bf,"Fix segfault when attempting to convert string to float16.
+
+To make sure this gets fixed, add test for converting string to any numeric type.
+
+PiperOrigin-RevId: 286650886
+Change-Id: I81f770ec2bbd33a863e8057ce198c679912fa8e0",https://github.com/tensorflow/tensorflow/commit/5ac1b9e24ff6afc465756edf845d2e9660bd34bf,Mihai Maruseac,12/20/2019 23:33,https://api.github.com/repos/tensorflow/tensorflow/git/commits/5ac1b9e24ff6afc465756edf845d2e9660bd34bf,0
+141,53912,53912,db4f9717c41bccc3ce10099ab61996b246099892,"Fix heap buffer overflow in UnsortedSegmentSum.
+
+When Index=int32, data_size and num_segments were truncated from int64 to int32. This truncation can produce negative numbers, which causes UnsortedSegmentFunctor to access out of bounds memory.
+
+Also:
+- Switches some indexing calculations to int64 to avoid signed integer overflow when either the input or output tensors have more than 2**31 - 1 elements.
+- Fixes a range check error in the GPU kernel. The segment ID was checked against an upper bound measured in elements, not segments.
+PiperOrigin-RevId: 256451663",https://github.com/tensorflow/tensorflow/commit/db4f9717c41bccc3ce10099ab61996b246099892,RJ Skerry-Ryan,7/3/2019 22:45,https://api.github.com/repos/tensorflow/tensorflow/git/commits/db4f9717c41bccc3ce10099ab61996b246099892,1
