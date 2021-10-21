@@ -1,7 +1,7 @@
 import utils
 import os
 from entities import *
-
+import json
 full_data_with_features_file_path = '../MSR2019/experiment/dataset_clean_updated.txt'
 record_file_path = '../MSR2019/experiment/dataset_clean.txt'
 github_commit_file_path = '../data/github_commit'
@@ -79,6 +79,20 @@ def write_full_data_to_file(file_path):
         file.write(json_value)
     print("Finishing writing")
 
+
+def parse_json(file_path):
+    with open(file_path, 'r') as reader:
+        json_items = json.loads(reader.read())
+    records = []
+    for item in json_items:
+        commit_id = item['commit_id']
+        msg = item['commit_message']
+        repo = item['html.url']
+        label = item['label']
+        record = Record(repo=repo, commit_id=commit_id, commit_message=msg, label=label)
+        records.append(record)
+
+    return records
 
 def load_records(file_path):
     print("Start loading records...")

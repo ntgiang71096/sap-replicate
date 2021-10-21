@@ -17,7 +17,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle
 import os
 
-file_path = 'MSR2019/experiment/full_dataset_with_all_features.txt'
+file_path = 'MSR2019/experiment/cve_label.txt'
 options = feature_options.ExperimentOption()
 
 
@@ -166,7 +166,7 @@ def do_experiment(size, ignore_number, github_issue, jira_ticket, use_comments, 
     commit_message_vectorizer = CountVectorizer(ngram_range=(1, options.max_n_gram),
                                                 min_df=options.min_document_frequency)
 
-    records = data_loader.load_records(file_path)
+    records = data_loader.parse_json(file_path)
 
     if options.data_set_size != -1:
         records = records[:options.data_set_size]
